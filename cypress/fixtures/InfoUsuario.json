@@ -1,0 +1,16 @@
+{
+    "userSucess": {
+      "firstname": "Dino",
+      "lastname": "da Silva Sauro",
+      "username": "Meganossauro",
+      "password": "senha123",
+      "confirmpassword": "senha123"
+    },
+    "userFail": {
+      "firstname": "erro",
+      "lastname": "erro",
+      "username": "erro",
+      "password": "senha123",
+      "confirmpassword": "sEnha321"
+    }
+  }
