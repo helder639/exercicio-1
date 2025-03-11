@@ -2,7 +2,7 @@ class LoginPage{
 
     selectorList(){
         const selectors = {
-            SingUpButton: "[href='/signup']",
+            SingUpButton: "[data-test='signup']",
             FirstName: "[name='firstName']",
             LastName: "[name='lastName']",
             UserName: "[name='username']",
@@ -27,7 +27,7 @@ class LoginPage{
         cy.get(this.selectorList().UserName).type(username)
         cy.get(this.selectorList().Password).type(password)
         cy.get(this.selectorList().ConfirmPassword).type(confirmpassword)
-        cy.get(this.selectorList().SingUpConfirmButton).click()
+        cy.get(this.selectorList().SingUpConfirmButton).click({force: true})
     }
 
     CriandoContaErrado(password, confirmpassword){

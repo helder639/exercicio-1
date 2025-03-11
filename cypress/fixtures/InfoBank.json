@@ -1,0 +1,13 @@
+{
+    "BankSucess": {
+      "bankname": "Din Din",
+      "routingnumber": "123456789",
+      "accountnumber": "987654321"
+    },
+
+    "BankFail": {
+      "bankname": "Dino",
+      "routingnumber": "da Silva Sauro",
+      "accountnumber": "Meganossauro"
+    }
+  }
